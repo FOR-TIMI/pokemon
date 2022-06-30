@@ -1,0 +1,29 @@
+
+.PokeGame-cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   }
+   
+.PokeGame{
+       text-align: center;
+   }
+
+
+
+.PokemonGame-alert{
+    text-align: center;
+    font-size:larger;
+    background-color: white;
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.PokeGame-winner{
+    color:#4caf50;
+}
+.PokeGame-looser{
+    color:#e91e63;
+}
