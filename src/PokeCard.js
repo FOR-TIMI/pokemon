@@ -12,7 +12,10 @@ class PokeCard extends Component{
         return (
             <div className='PokeCard'>
                <h1 className='PokeCard-title'>{name}</h1>
-               <img className='PokeCard-img' src={POKE_API.replace(/{id}/, paddId(id))} alt={this.props.name}/>
+               <div className='PokeCard-img'>
+               <img src={POKE_API.replace(/{id}/, paddId(id))} alt={this.props.name}/>
+               </div>
+               
                <div className='PokeCard-data'>Type: {type}</div>
                <div className='PokeCard-data'>EXP: {exp}</div>
             </div>
